@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Your Momentum App 🌙
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+        <link rel="stylesheet" href="Style.css">
+    </head>
+<body id="Reggie" class="vignette">
+    <div id="outerText1"><div class="upperText" id="uptextContainer1">
+        </div>
+        <div class="upperText" id="uptextContainer2">
+        </div>
+    </div>
+    <div id="mainmain">
+        <div id="main">
+            <div id="shadowbox">
+                <h2 id="tempTime"  style="text-align: center;">
+                    test
+                </h2>
+                <p style="text-align: center;">
+                    <span id="greeting">
+                    Hello, <span id="greetUser"></span> 
+                    <input type="text" id="nameInput" size="1" contenteditable="true" class="goalgreetingInput">
+                </input>
+                    .
+                    </span> 
+                    <button id="namechangeBtn"  style="background: transparent; outline: none; border: none; cursor: pointer;">
+                            <img src="/icons/whitechange.png"  id="changeIcon" class="Icons">
+                    </button>
+                <div id="insertGoalHere">
+                </p>
+                    <p id="entergoalParent" style="text-align: center; font-weight: 400;">
+                        What is your goal today? <img src="./icons/coffeeGoal.png" id="coffeeIcon">
+                        <br>
+                            <span id="goalSet"></span>
+                                <input type="text" id="goalInput" contenteditable="true" class="goalgreetingInput">
+                                <button id="goalchangeBtn"  style="background: transparent; outline: none; border: none; cursor: pointer;">
+                                        <img src="/icons/whitechange.png"  id="changeIcon" class="Icons">
+                                </button>
+                        </input>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="outerText2">
+        <div class="lowerText" id="lowertextContainer1">
+            Reminder to drink water!
+        </div>
+            <div id="quoteBtnDiv">
+                <div style="text-align: center;"><i><h3 id="quotes"></h3></i></div>
+                <button id="addQuoteBtn" style="background: transparent; outline: none; border: none; cursor: pointer;">
+                    <img src="/icons/ADD.png"  id="addQuoteIcon">
+                </button>
+            </div>
+                <div id="quoteAdderDiv">
+                    <form id="qformDiv">
+                        <input type="text" id="qFormInput" placeholder="Insert Quote here"> <button type="submit" id="qFormBtn">
+                            Submit
+                        </button>
+                    </form>
+                </div>
+            
+        <div class="lowerText" id="lowertextContainer2">
+            <div id="taskBtn">
+                Tasks:
+            </div>
+            <div class="task-popup" id="myTasks">
+                <div id="taskList">
+                    <div>
+                    <div id="taskTitle">
+                      Tasks:  
+                    </div id="addTaskLine">
+                        <form id="addTaskForm">
+                        <input type="text" id="todo-input" placeholder="Add a task?"></input>
+                        <button type="submit">
+                            Add Task
+                        </button>
+                    </div>
+                        </form>
+                    <div id="todolistDiv">
+                        <ul id="todo-list">
+                        <div class="divClass">
+                            <li class="taskContainer">test</li>
+                            <input type="checkbox" class="checkmark">
+                            <button class="deleteEditBtns">Edit</button>
+                            <button class="deleteEditBtns">Delete</button>
+                        </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>
